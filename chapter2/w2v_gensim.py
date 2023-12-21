@@ -24,5 +24,5 @@ analogy_file = '../datasets/w2v/questions-words.txt'
 result = model.wv.evaluate_word_analogies(analogy_file)
 print('Analogy accuracy:', result[0])
 for section_result in result[1]:
-  print('section name:', section_result['section'],
-        ', correct:', section_result['correct'])
+    print('section name:', section_result['section'],
+          ', correct:', section_result['correct'])
